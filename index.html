@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portafolio</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <section class="hero">
+                <img
+                id="toggleTheme"
+                class="theme-btn"
+                src="assets/theme_light.png"
+                alt="theme icon"/>
+
+                <div class="hero-pic">
+                    <div class="inner-circle"></div>
+                    <img src="assets/profilePic.jpg" alt="Carlos Petit"/>
+                </div>
+                <div class="hero-info">
+                    <h1>CARLOS PETIT</h1>
+                    <h2>Ingeniero de Sistemas</h2>
+                    <h3>Programador Junior</h3>
+                    <div class="logo-container">
+                        <a href="https://github.com/CarlosPetit">
+                            <img src="assets/github_light.png" alt="github logo"/>
+                        </a>
+                        <a href="mailto:carloseduardopetitbarrera@gmail.com">
+                            <img src="assets/email_light.png" alt="email logo">
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="experience">
+                <h2 title="UNEFA"><strong>4</strong><br>Años<br>Estudios Universitarios</h2>
+                <h2 title="Instituto Nacional de Canalizaciones"><strong>+3</strong><br>Meses<br>Practicas Profesionales</h2>
+                <h2 title="En busqueda del primer empleo!"><strong>0</strong><br>Años<br>Experiencia Laboral</h2>
+            </section>
+            <section class="cta">
+                <a href="assets/cv.pdf" download>
+                    <button class="btn download-btn">Descargar CV</button>
+                </a>
+                <a href="mailto:carloseduardopetitbarrera@gmail.com">
+                    <button class="btn contact-btn">Contactar</button>
+                </a>
+            </section>
+
+            <section class="portfolio-skills">
+                <div class="btn-bg">
+                    <button class="btn-2 active-btn" id="portfolio-btn">Portafolio</button>
+                    <button class="btn-2" id="skills-btn">Habilidades</button>
+                </div>
+                </section>
+
+                <section class="portfolio" id="portfolio">
+                <div class="wrapper project-wrapper">
+                    <a href="proyectos/NotesApp/index.html" target="_blank">
+                        <img src="assets/projects/projectNotes.PNG" alt="notesApp" title="Escribe y gestiona tus notas de manera local!"/>
+                    </a>
+                </div>
+                <div class="wrapper project-wrapper">
+                    <a href="proyectos/toDoList/index.html">
+                        <img src="assets/projects/projectToDo.PNG" alt="toDo" title="Gestiona una lista de tareas personal de forma local!"/>
+                    </a>
+                </div>
+                <div class="wrapper project-wrapper">
+                    <a href="proyectos/englishWebsite/index.html">
+                        <img src="assets/projects/projectEnglish.PNG" alt="englishWebsite" title="Prueba tu nivel de inglés en una encuesta rápida en este pequeño proyecto universitario!"/>
+                    </a>
+                </div>
+            </section>
+        
+            <section class="skills" id="skills">
+                <div class="wrapper">
+                    <h3>Frontend / Backend</h3>
+                    <article class="frontend-skills">
+                        <p><img class="skill" src="assets/skills-logos/html5-logo.svg" alt="HTML"></p>
+                        <p><img class="skill" src="assets/skills-logos/css-logo.svg" alt="CSS"></p>
+                        <p><img class="skill" src="assets/skills-logos/bootstrap-logo.svg" alt="Bootsrap"></p>
+                        <p><img class="skill" src="assets/skills-logos/javascript-logo.svg" alt="JavaScript"></p>
+                        <p><img class="skill" src="assets/skills-logos/php-logo.svg" alt="PHP"></p>
+                        <p><img class="skill" src="assets/skills-logos/nodejs-logo.svg" alt="Node.js"></p>
+                        <p><img class="skill" src="assets/skills-logos/python-logo.svg" alt="Python"></p>
+                        <p><img class="skill" src="assets/skills-logos/sqlite-logo.svg" alt="SQLite"></p>
+                    </article>
+                </div>
+                <div class="wrapper">
+                    <h3>Otras habilidades</h3>
+                    <article class="backend-skills">
+                        <p>Inglés - Nivel B2</p>
+                        <p>Desempeño en editores gráficos</p>
+                    </article>
+                </div>
+            </section>
+
+            <footer>
+                <p>Carlos Petit 2025</p><br>
+                <p class="contact">carloseduardopetitbarrera@gmail.com</p>
+                <p class="contact">0414-6416100</p>
+            </footer>
+        </div>
+    </body>
+</html>
